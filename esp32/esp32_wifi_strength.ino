@@ -17,10 +17,8 @@
 WiFiClient client;
 
 // ThingSpeak Settings
-//const int channelID = XXX;
-const int channelID = XXXXXX;
-//String writeAPIKey = "XXXXXXXXXXXXXXXX"; // write API key for your ThingSpeak Channel
-String writeAPIKey = "XXXXXXXXXXXXXXX"; // write API key for your ThingSpeak Channel
+const int channelID = CHANNEL_ID;
+String writeAPIKey = "WRITE_API_KEY"; // write API key for your ThingSpeak Channel
 const char* server = "api.thingspeak.com";
 const int postingInterval = 20 * 1000; // post data every 20 seconds
 
