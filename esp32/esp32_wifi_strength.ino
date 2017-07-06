@@ -11,8 +11,8 @@
 #include <WiFi.h>
 
 //// Wi-Fi Settings
-//const char* ssid = "XXX"; // your wireless network name (SSID)
-//const char* password = "XXXXXXXX"; // your Wi-Fi network password
+//const char* ssid = "NETWORK_NAME"; // your wireless network name (SSID)
+//const char* password = "PASSWORD"; // your Wi-Fi network password
 
 WiFiClient client;
 
