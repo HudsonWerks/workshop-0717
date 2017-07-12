@@ -3,7 +3,7 @@
  This code is a basic test of reading an Analog Devices ADXL3xx accelerometer on an ESP32 microcontroller and communicates the
  acceleration to the computer via the serial monitor.  
 
-Bassed on http://www.arduino.cc/en/Tutorial/ADXL3xx. Modified for the ESP32 by Charles Hamilton.
+Based on http://www.arduino.cc/en/Tutorial/ADXL3xx. Modified for the ESP32 by Charles Hamilton.
 */
 
 
