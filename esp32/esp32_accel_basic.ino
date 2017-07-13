@@ -7,10 +7,10 @@ Based on http://www.arduino.cc/en/Tutorial/ADXL3xx. Modified for the ESP32 by Ch
 */
 
 
-// these constants describe the ESP32 > accelerometer pin assignments
-const int xpin = 12;                  // x-axis of the accelerometer
-const int ypin = 13;                  // y-axis
-const int zpin = 14;                  // z-axis
+const int xpin = 12;                  // x-axis of accelerometer
+const int ypin = 13;                  // y-axis of accelerometer
+const int zpin = 14;                  // z-axis of accelerometer
+
 
 void setup() {
   // initialize the serial communications:
